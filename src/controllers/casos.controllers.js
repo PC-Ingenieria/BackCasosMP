@@ -173,7 +173,7 @@ export const getFiscalias = async(req, res) =>{
 export const getFiscales = async(req, res) =>{
         
     const idFiscal = req.query.id;
-    console.log("xxxxxxxx",idFiscal);
+    //console.log("xxxxxxxx",idFiscal);
         
     try {
         const pool = await getConnection();
